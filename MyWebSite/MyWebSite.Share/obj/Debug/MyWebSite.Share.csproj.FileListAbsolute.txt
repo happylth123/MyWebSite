@@ -1,4 +1,0 @@
-D:\MyWebSite\MyWebSite\MyWebSite.Share\bin\Debug\MyWebSite.Share.dll
-D:\MyWebSite\MyWebSite\MyWebSite.Share\bin\Debug\MyWebSite.Share.pdb
-D:\MyWebSite\MyWebSite\MyWebSite.Share\obj\Debug\MyWebSite.Share.dll
-D:\MyWebSite\MyWebSite\MyWebSite.Share\obj\Debug\MyWebSite.Share.pdb
