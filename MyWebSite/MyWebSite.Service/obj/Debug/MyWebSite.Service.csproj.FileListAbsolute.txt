@@ -1,0 +1,10 @@
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\MyWebSite.Service.dll.config
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\MyWebSite.Service.dll
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\MyWebSite.Service.pdb
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\EntityFramework.dll
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\EntityFramework.xml
+D:\MyWebSite\MyWebSite\MyWebSite.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyWebSite\MyWebSite\MyWebSite.Service\obj\Debug\MyWebSite.Service.csprojResolveAssemblyReference.cache
+D:\MyWebSite\MyWebSite\MyWebSite.Service\obj\Debug\MyWebSite.Service.dll
+D:\MyWebSite\MyWebSite\MyWebSite.Service\obj\Debug\MyWebSite.Service.pdb
