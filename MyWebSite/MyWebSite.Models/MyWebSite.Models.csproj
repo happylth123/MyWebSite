@@ -40,7 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\User.cs" />
+    <Compile Include="IssueLogWork\IssueLogWork.cs" />
+    <Compile Include="Issue\Issue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sprint\Sprint.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyWebSite.Share\MyWebSite.Share.csproj">

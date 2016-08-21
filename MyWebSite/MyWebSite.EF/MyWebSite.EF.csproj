@@ -50,6 +50,10 @@
     <Compile Include="Migrations\201608201114219_AddUser.Designer.cs">
       <DependentUpon>201608201114219_AddUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608210827499_Addsomeef.cs" />
+    <Compile Include="Migrations\201608210827499_Addsomeef.Designer.cs">
+      <DependentUpon>201608210827499_Addsomeef.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyWebSiteContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201608201114219_AddUser.resx">
       <DependentUpon>201608201114219_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608210827499_Addsomeef.resx">
+      <DependentUpon>201608210827499_Addsomeef.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
