@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyWebSite.Models.Sprint
+namespace MyWebSite.Models
 {
     public class Sprint
     {
@@ -52,6 +52,6 @@ namespace MyWebSite.Models.Sprint
         /// <summary>
         /// Issue
         /// </summary>
-        public virtual ICollection<Issue.Issue> Issues { get; set; }
+        public virtual ICollection<Issue> Issues { get; set; }
     }
 }

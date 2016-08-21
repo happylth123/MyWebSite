@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyWebSite.Models.Issue
+namespace MyWebSite.Models
 {
     public class Issue
     {
@@ -72,11 +72,11 @@ namespace MyWebSite.Models.Issue
         /// <summary>
         /// Sprint
         /// </summary>
-        public virtual Sprint.Sprint Sprint { get; set; }
+        public virtual Sprint Sprint { get; set; }
 
         /// <summary>
         /// IssueLogWork
         /// </summary>
-        public virtual ICollection<IssueLogWork.IssueLogWork> IssueLogWorks { get; set; }
+        public virtual ICollection<IssueLogWork> IssueLogWorks { get; set; }
     }
 }

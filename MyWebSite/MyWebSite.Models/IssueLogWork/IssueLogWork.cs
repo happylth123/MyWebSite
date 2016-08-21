@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyWebSite.Models.IssueLogWork
+namespace MyWebSite.Models
 {
     public class IssueLogWork
     {
@@ -41,6 +41,6 @@ namespace MyWebSite.Models.IssueLogWork
         /// <summary>
         /// issue
         /// </summary>
-        public virtual Issue.Issue Issue { get; set; }
+        public virtual Issue Issue { get; set; }
     }
 }
