@@ -20,5 +20,10 @@ namespace MyWebSite.Service
         {
             return _sprintRepository.GetAllSprints();
         }
+
+        public void AddTest()
+        {
+            _sprintRepository.AddTest();
+        }
     }
 }
