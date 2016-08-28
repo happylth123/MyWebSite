@@ -75,16 +75,6 @@ namespace MyWebSite.EF
         }
 
         /// <summary>
-        /// Add the specified items.
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="items">The items.</param>
-        //public virtual void Add<T>(IEnumerable<T> items) where T : class
-        //{
-        //    this.BulkInsert(items);
-        //}
-
-        /// <summary>
         /// Updates the specified item.
         /// </summary>
         /// <typeparam name="T"></typeparam>
@@ -94,6 +84,51 @@ namespace MyWebSite.EF
             Set(item.GetType()).Attach(item);
             Entry(item).State = EntityState.Modified;
         }
+
+        /// <summary>
+        /// Gets as queryable.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public virtual IQueryable<T> GetAsQueryable<T>() where T : class
+        {
+            return Set<T>();
+        }
+
+        /// <summary>
+        /// Specifies the related objects to include in the query results.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="TProperty"></typeparam>
+        /// <param name="queryable"></param>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public virtual IQueryable<T> Include<T, TProperty>(IQueryable<T> queryable, Expression<Func<T, TProperty>> path) where T : class
+        {
+            return queryable.Include(path);
+        }
+
+        /// <summary>
+        /// Specifies the related objects to include in the query results.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="queryable"></param>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public virtual IQueryable<T> Include<T>(IQueryable<T> queryable, string path) where T : class
+        {
+            return queryable.Include(path);
+        }
+
+        /// <summary>
+        /// Add the specified items.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="items">The items.</param>
+        //public virtual void Add<T>(IEnumerable<T> items) where T : class
+        //{
+        //    this.BulkInsert(items);
+        //}
 
         /// <summary>
         /// Updates the specified items.
@@ -139,40 +174,5 @@ namespace MyWebSite.EF
         //        Remove(item);
         //    }
         //}
-
-        /// <summary>
-        /// Gets as queryable.
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public virtual IQueryable<T> GetAsQueryable<T>() where T : class
-        {
-            return Set<T>();
-        }
-
-        /// <summary>
-        /// Specifies the related objects to include in the query results.
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <typeparam name="TProperty"></typeparam>
-        /// <param name="queryable"></param>
-        /// <param name="path"></param>
-        /// <returns></returns>
-        public virtual IQueryable<T> Include<T, TProperty>(IQueryable<T> queryable, Expression<Func<T, TProperty>> path) where T : class
-        {
-            return queryable.Include(path);
-        }
-
-        /// <summary>
-        /// Specifies the related objects to include in the query results.
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="queryable"></param>
-        /// <param name="path"></param>
-        /// <returns></returns>
-        public virtual IQueryable<T> Include<T>(IQueryable<T> queryable, string path) where T : class
-        {
-            return queryable.Include(path);
-        }
     }
 }

@@ -11,19 +11,6 @@ namespace MyWebSite.Repository
 {
     public class SprintRepository : MyWebSiteContext
     {
-        //public Sprint GetTest()
-        //{
-        //    return GetAsQueryable(Sprints).ToList();
-        //}
-
-        public void AddTest()
-        {
-            Sprint sprint = new Sprint();
-            sprint.Id = Guid.NewGuid().ToString();
-            sprint.SprintIDNum = "222";
-            sprint.StartTime = DateTime.Now;
-            Add<Sprint>(sprint);
-        }
 
         /// <summary>
         /// Create Sprint
@@ -31,7 +18,7 @@ namespace MyWebSite.Repository
         /// <param name="sprint"></param>
         public void CreateSprint(Sprint sprint)
         {
-            Sprints.Add(sprint);
+            Add<Sprint>(sprint);
             SaveChanges();
         }
 
@@ -45,7 +32,7 @@ namespace MyWebSite.Repository
             {
                 return;
             }
-            //Entry(sprint).State == EntityState.Modified;
+            Update<Sprint>(sprint);
             SaveChanges();
         }
 

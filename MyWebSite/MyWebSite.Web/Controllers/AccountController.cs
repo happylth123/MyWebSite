@@ -15,7 +15,11 @@ namespace MyWebSite.Web.Controllers
         // GET: Account
         public ActionResult Index()
         {
-            _sprintService.AddTest();
+            var sprints = _sprintService.GetAllSprints();
+            _sprintService.CreateSprint();
+            _sprintService.UpdateSprint();
+            //_sprintService.DeleteSprint("test");
+
             var users = _accountService.GetAllUsers();
             return View();
         }
