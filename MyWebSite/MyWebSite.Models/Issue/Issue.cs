@@ -15,7 +15,7 @@ namespace MyWebSite.Models
         public string Id { get; set; }
 
         /// <summary>
-        /// Issue Title ID
+        /// Issue IDNum
         /// </summary>
         public string IssueIDNum { get; set; }
 

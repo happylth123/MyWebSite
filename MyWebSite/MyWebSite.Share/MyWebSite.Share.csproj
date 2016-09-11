@@ -57,18 +57,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encrypt\MD5Encrypt.cs" />
     <Compile Include="Enums\IssueStatus.cs" />
     <Compile Include="Enums\IssueType.cs" />
     <Compile Include="Enums\SprintStatus.cs" />
+    <Compile Include="Excel\CsvTransferData.cs" />
+    <Compile Include="Excel\DataFileType.cs" />
+    <Compile Include="Excel\ExcelTransferData.cs" />
+    <Compile Include="Excel\ITransferData.cs" />
+    <Compile Include="Excel\XlsTransferData.cs" />
+    <Compile Include="Excel\XlsxTransferData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Enums\UserType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Excel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

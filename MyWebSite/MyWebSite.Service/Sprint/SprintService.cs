@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PagedList;
 
 namespace MyWebSite.Service
 {
@@ -18,7 +19,11 @@ namespace MyWebSite.Service
         /// <returns></returns>
         public IList<Sprint> GetAllSprints()
         {
-            return _sprintRepository.GetAllSprints();
+            int pageNumber = 1;
+            int pageSize = 3;
+            var query= _sprintRepository.GetAllSprints();
+            return query.OrderBy(it => it.SprintIDNum).ToPagedList(pageNumber, pageSize).ToList();
+               
         }
 
         public void CreateSprint()

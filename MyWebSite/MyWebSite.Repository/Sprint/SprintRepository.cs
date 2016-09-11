@@ -36,13 +36,14 @@ namespace MyWebSite.Repository
             SaveChanges();
         }
 
+
         /// <summary>
-        /// Get All Sprints
+        /// 
         /// </summary>
         /// <returns></returns>
-        public IList<Sprint> GetAllSprints()
+        public IQueryable<Sprint> GetAllSprints()
         {
-            return Sprints.ToList();
+            return GetAsQueryable<Models.Sprint>();
         }
 
         /// <summary>
@@ -90,5 +91,14 @@ namespace MyWebSite.Repository
             Sprints.Remove(sprint);
             SaveChanges();
         }
+
+        /// <summary>
+        /// Get All Sprints
+        /// </summary>
+        /// <returns></returns>
+        //public IList<Sprint> GetAllSprints()
+        //{
+        //    return Sprints.ToList();
+        //}
     }
 }

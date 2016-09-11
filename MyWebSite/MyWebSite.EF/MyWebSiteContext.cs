@@ -95,6 +95,22 @@ namespace MyWebSite.EF
             return Set<T>();
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /// <summary>
         /// Specifies the related objects to include in the query results.
         /// </summary>
@@ -103,10 +119,10 @@ namespace MyWebSite.EF
         /// <param name="queryable"></param>
         /// <param name="path"></param>
         /// <returns></returns>
-        public virtual IQueryable<T> Include<T, TProperty>(IQueryable<T> queryable, Expression<Func<T, TProperty>> path) where T : class
-        {
-            return queryable.Include(path);
-        }
+        //public virtual IQueryable<T> Include<T, TProperty>(IQueryable<T> queryable, Expression<Func<T, TProperty>> path) where T : class
+        //{
+        //    return queryable.Include(path);
+        //}
 
         /// <summary>
         /// Specifies the related objects to include in the query results.
@@ -115,10 +131,10 @@ namespace MyWebSite.EF
         /// <param name="queryable"></param>
         /// <param name="path"></param>
         /// <returns></returns>
-        public virtual IQueryable<T> Include<T>(IQueryable<T> queryable, string path) where T : class
-        {
-            return queryable.Include(path);
-        }
+        //public virtual IQueryable<T> Include<T>(IQueryable<T> queryable, string path) where T : class
+        //{
+        //    return queryable.Include(path);
+        //}
 
         /// <summary>
         /// Add the specified items.
