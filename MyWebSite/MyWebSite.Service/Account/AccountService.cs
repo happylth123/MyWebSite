@@ -12,7 +12,7 @@ namespace MyWebSite.Service
     {
         private AccountRepository _accountRepository = new AccountRepository();
 
-        public IList<User> GetAllUsers()
+        public IQueryable<User> GetAllUsers()
         {
             return _accountRepository.GetAllUsers();
         }

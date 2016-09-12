@@ -40,7 +40,7 @@ namespace MyWebSite.Web.Controllers
 
             //_sprintService.DeleteSprint("test");
 
-            var users = _accountService.GetAllUsers();
+            var users = _accountService.GetAllUsers().ToList();
             return View();
         }
 

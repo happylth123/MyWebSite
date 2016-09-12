@@ -37,9 +37,9 @@ namespace MyWebSite.Service
 
         public void UpdateSprint()
         {
-            var sprint = _sprintRepository.GetSprintBySprintId("c26e4434-a10f-4111-bee1-9e07b6a52ddb");
-            sprint.ModifyTime = DateTime.Now;
-            _sprintRepository.UpdateSprint(sprint);
+            //var sprint = _sprintRepository.GetSprintBySprintId("c26e4434-a10f-4111-bee1-9e07b6a52ddb");
+            //sprint.ModifyTime = DateTime.Now;
+            //_sprintRepository.UpdateSprint(sprint);
         }
 
         public void DeleteSprint(string sprintId)
