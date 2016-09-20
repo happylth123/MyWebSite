@@ -1,0 +1,134 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Description,Watchers,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Cloners),Attachment,Custom field (Account),Custom field (Business Value),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Iteration),Custom field (Raised During),Custom field (Rank),Sprint,Custom field (Story Points),Custom field (T-sizing),Custom field (Team),Custom field (Test Sessions),Custom field (Testing Status),Custom field ([CHART] Date of First Response),Comment
+SG - HL - Selenium - Edit details,SGP-7213,25760,24905,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,yuying,Yanping,Yanping,29/Aug/16 3:02 PM,29/Aug/16 3:35 PM,30/Aug/16 2:02 PM,,,0,,,https://woodpecker.atlassian.net/wiki/display/QA/2.+Edit+Details,Yanping,,,21600,21600,,0%,21600,21600,,,,,,,,,,,,,1|i00cmz:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - Selenium - Form fill,SGP-7212,25759,24905,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,Zhimin,Yanping,Yanping,29/Aug/16 3:02 PM,29/Aug/16 3:35 PM,30/Aug/16 2:02 PM,,,0,,,https://woodpecker.atlassian.net/wiki/display/QA/1.+Form+fill,Yanping,,,14400,14400,,0%,14400,14400,,,,,,,,,,,,,1|i00cmr:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan - Check and Adjust Account Page,SGP-7211,25758,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:55 PM,29/Aug/16 3:14 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,7200,7200,,0%,7200,7200,,,SGP-7210,,,,,,,,,,1|i00cmj:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan Two Email Templates,SGP-7210,25757,25704,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:54 PM,30/Aug/16 11:53 AM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,3600,3600,,0%,3600,3600,,,SGP-7209,,,,,,,,,,1|i00cmb:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan prepopulated page [mobile + desktop],SGP-7209,25756,25704,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:53 PM,30/Aug/16 11:52 AM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,14400,14400,,0%,14400,14400,,,SGP-7171,,,,,,,,,,1|i00cm3:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home loan Blog Widget,SGP-7208,25755,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:53 PM,29/Aug/16 3:09 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! 
+1.home loan insurance button
+2.float bear",qunying,,,7200,7200,,0%,7200,7200,,,SGP-7174,,,,,,,,,,1|i00clv:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan compare page [desktop],SGP-7207,25754,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:50 PM,29/Aug/16 3:05 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,10800,10800,,0%,10800,10800,,,SGP-7170,,,,,,,,,,1|i00cln:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan quote page [mobile],SGP-7206,25753,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:47 PM,29/Aug/16 3:12 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,14400,14400,,0%,14400,14400,,,SGP-7168,,,,,,,,,,1|i00clf:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY- Select All Text for Textinput when focus - form fill + edit detail + filter panel,SGP-7205,25752,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 2:46 PM,29/Aug/16 3:09 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,7200,7200,,0%,7200,7200,,,SGP-7163,,,,,,,,,,1|i00cl7:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - Selenium - Quotes page,SGP-7203,25750,25748,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,Yanping,Yanping,29/Aug/16 2:17 PM,29/Aug/16 2:17 PM,30/Aug/16 2:02 PM,,,0,,,"* PageObject
+* No need Test steps",Yanping,,,64800,64800,,0%,64800,64800,,,,,,,,,,,,,1|i00ckr:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - FE - Quotes page,SGP-7201,25748,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,Yanping,Yanping,29/Aug/16 1:50 PM,30/Aug/16 10:19 AM,30/Aug/16 1:50 PM,,,0,H-Loans,,,Yanping,,,360000,360000,,0%,720000,720000,,,,,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyzmbb,Sprint 6.7 - Team 1,100.0,,,,Not started,,
+SG - HL - FE - Quotes page (Mobile),SGP-7200,25747,25748,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,Yanping,Yanping,29/Aug/16 1:47 PM,29/Aug/16 2:10 PM,30/Aug/16 2:02 PM,,,0,,,,Yanping,,,46800,46800,,0%,46800,46800,,,,,,,,,,,,,1|i00ckb:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - FE - Quotes page - List view (Desk),SGP-7199,25746,25748,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Major,,,Yanping,Yanping,29/Aug/16 11:58 AM,29/Aug/16 2:10 PM,30/Aug/16 2:02 PM,,,0,,,"* Desk - 2 browsers
+* Labels
+* Functions
+* Coverages",Yanping,,,57600,57600,,0%,57600,57600,,,,,,,,,,,,,1|i00ck3:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - FE - Quotes page - Grid view,SGP-7198,25745,25748,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,Yanping,Yanping,29/Aug/16 11:54 AM,29/Aug/16 2:09 PM,30/Aug/16 2:02 PM,,,0,,,"* Desk - 2 browsers
+* Labels
+* Functions
+* Coverages",Yanping,,,72000,72000,,0%,72000,72000,,,,,,,,,,,,,1|i00cjv:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - Filter + Sorting,SGP-7190,25737,25748,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,Yanping,Yanping,29/Aug/16 11:43 AM,29/Aug/16 2:09 PM,30/Aug/16 2:02 PM,,,0,,,"* Desk
+* Mobile
+* Labels
+* Function",Yanping,,,61200,61200,,0%,61200,61200,,,,,,,,,,,,,1|i00ci3:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home loan Blog - Super Bear + Insurance Buttons [mobile + desktop],SGP-7174,25721,25704,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:37 AM,30/Aug/16 11:52 AM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! 
+1.home loan insurance button
+2.float bear",qunying,,,14400,14400,,0%,14400,14400,,,,,,,,,,,,,1|i00cej:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home loan (CPL Form) white lable check-out [mobile + desktop],SGP-7172,25719,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:34 AM,29/Aug/16 3:07 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,10800,10800,,0%,10800,10800,,,,,,,,,,,,,1|i00ceb:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan landing page [mobile + desktop],SGP-7171,25718,25704,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:33 AM,30/Aug/16 11:52 AM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,14400,14400,,0%,14400,14400,,,,,,,,,,,,,1|i00ce3:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan compare page [mobile],SGP-7170,25717,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:32 AM,29/Aug/16 3:05 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,10800,10800,,0%,10800,10800,,,,,,,,,,,,,1|i00cdv:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan detail page [mobile + desktop],SGP-7169,25716,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:31 AM,29/Aug/16 3:03 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,14400,14400,,0%,14400,14400,,,,,,,,,,,,,1|i00cdn:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan quote page - list view + grid view [desktop],SGP-7168,25715,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:30 AM,29/Aug/16 3:11 PM,30/Aug/16 2:02 PM,,,0,,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,28800,28800,,0%,28800,28800,,,,,,,,,,,,,1|i00cdf:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan checkout promptbox [mobile + desktop],SGP-7167,25714,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:29 AM,29/Aug/16 2:59 PM,30/Aug/16 2:02 PM,,,0,,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,18000,18000,,0%,18000,18000,,,,,,,,,,,,,1|i00cd7:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan edit detail and filter in Quote Page [mobile + desktop],SGP-7166,25713,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:28 AM,29/Aug/16 2:59 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! 
+1.edit detail , filter and sortby bar style.
+2.edit detail and filter panel ",qunying,,,21600,21600,,0%,21600,21600,,,,,,,,,,,,,1|i00ccz:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-HomeLoan messige tip [full site],SGP-7165,25712,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:26 AM,29/Aug/16 2:58 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,21600,21600,,0%,21600,21600,,,,,,,,,,,,,1|i00ccr:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan Calcualter [mobile + desktop],SGP-7164,25711,25704,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:25 AM,29/Aug/16 2:58 PM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! 
+1. in form fill
+2. in landing page
+3. in prepopulated page
+4. in widget
+5. in filter panel
+",qunying,,,43200,43200,,0%,43200,43200,,,,,,,,,,,,,1|i00ccj:,Sprint 6.7 - Team 1,,,,,Not started,,
+HTML-MY-Home Loan form fill [mobile + desktop],SGP-7163,25710,25704,Sub-task,In Progress,SGP,Singapore,software,markvanderploeg,,,Minor,,qunying,qunying,qunying,29/Aug/16 10:24 AM,30/Aug/16 10:35 AM,30/Aug/16 2:02 PM,,,0,HTML,,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",qunying,,,14400,14400,,0%,14400,14400,,,,,,,,,,,,,1|i00ccb:,Sprint 6.7 - Team 1,,,,,Not started,,
+MY - HTML - Home Loans Design,SGP-7157,25704,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,Janice Lim,Janice Lim,26/Aug/16 2:22 PM,29/Aug/16 3:19 PM,30/Aug/16 2:02 PM,,,0,H-Loans,Roadmap,"Refer to https://woodpecker.atlassian.net/wiki/display/MY/Home+Loans+Overview+and+Setup:
+ !screenshot-1.png|thumbnail! ",Janice Lim,,,,,,,277200,277200,,,,26/Aug/16 2:23 PM;Janice Lim;screenshot-1.png;https://woodpecker.atlassian.net/secure/attachment/25202/screenshot-1.png,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyzm1i7,Sprint 6.7 - Team 1,77.0,,,,Not started,,
+T1 - Knowledge sharing,SGP-7154,25701,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,26/Aug/16 9:21 AM,30/Aug/16 10:30 AM,30/Aug/16 10:30 AM,,,0,,,How to build the test data and test case? - [~Yanping],suzy,,,25200,25200,,0%,25200,25200,,,,,,,,SGP-1575,,,,,1|i00cbv:,Sprint 6.7 - Team 1,7.0,,,,Not started,,
+T1 - Scrum - Sprint grooming meeting,SGP-7059,25408,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,19/Aug/16 11:07 AM,30/Aug/16 10:22 AM,30/Aug/16 10:22 AM,,,0,,,,suzy,,,138600,138600,,0%,138600,138600,,,,,,,,SGP-1454,,,,,1|i00bvn:,Sprint 6.7 - Team 1,38.5,,,,Not started,,
+T1 - Scrum - Retrospective meeting ,SGP-7058,25407,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,19/Aug/16 11:07 AM,30/Aug/16 10:22 AM,30/Aug/16 10:22 AM,,,0,,,,suzy,,,50400,50400,,0%,50400,50400,,,,,,,,SGP-1454,,,,,1|i00bvf:,Sprint 6.7 - Team 1,14.0,,,,Not started,,
+T1 - Scrum - Sprint review meeting,SGP-7057,25406,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,19/Aug/16 11:06 AM,30/Aug/16 10:22 AM,30/Aug/16 10:22 AM,,,0,,,,suzy,,,50400,50400,,0%,50400,50400,,,,,,,,SGP-1454,,,,,1|i00bv7:,Sprint 6.7 - Team 1,14.0,,,,Not started,,
+T1 - Scrum - Daily Scrum,SGP-7056,25405,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,19/Aug/16 10:44 AM,30/Aug/16 10:22 AM,30/Aug/16 10:22 AM,,,0,,,,suzy,,,63000,63000,,0%,63000,63000,,,,,,,,SGP-1454,,,,,1|i00buz:,Sprint 6.7 - Team 1,17.5,,,,Not started,,
+T1 - Scrum - Sprint planning meeting,SGP-7055,25404,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,19/Aug/16 10:42 AM,30/Aug/16 10:21 AM,30/Aug/16 10:21 AM,,,0,,,,suzy,,,172800,172800,,0%,172800,172800,,,,,,,,SGP-1454,,,,,1|i00bur:,Sprint 6.7 - Team 1,48.0,,,,Not started,,
+SG - HL - FE - Monthly payment API,SGP-7022,25230,24905,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,16/Aug/16 11:06 AM,29/Aug/16 2:20 PM,25/Aug/16 9:41 AM,,,0,,,,JailuLi,,,28800,28800,,0%,28800,28800,,,,,,,,,,,,,1|i00boz:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - FE - Detail API,SGP-7021,25229,24905,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,16/Aug/16 11:05 AM,30/Aug/16 9:40 AM,30/Aug/16 9:40 AM,,,0,,,,JailuLi,,,57600,57600,,0%,57600,57600,,,,,,,,,,,,,1|i00bor:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - FE - Quotes API,SGP-7020,25228,25748,Sub-task,On Hold,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,16/Aug/16 11:04 AM,30/Aug/16 9:41 AM,30/Aug/16 9:41 AM,,,0,,,,JailuLi,,,57600,57600,,0%,57600,57600,,,,,,,,,,,,,1|i00boj:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Reference rates,SGP-6948,25071,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,15/Aug/16 2:34 PM,29/Aug/16 10:53 AM,30/Aug/16 2:02 PM,,,0,,,,JailuLi,,,54000,54000,,0%,54000,54000,,,,,,,,,,,,,1|i00baj:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Loan - Discounts,SGP-6947,25070,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,15/Aug/16 2:30 PM,15/Aug/16 2:43 PM,30/Aug/16 2:02 PM,,,0,,,,JailuLi,,,50400,50400,,0%,50400,50400,,,,,,,,,,,,,1|i00bab:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Loan - Promotions,SGP-6946,25069,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,15/Aug/16 2:26 PM,29/Aug/16 10:45 AM,30/Aug/16 2:02 PM,,,0,,,"Promotion page
+Sort promotions
+Activities",JailuLi,,,32400,32400,,0%,32400,32400,,,,,,,,,,,,,1|i00ba3:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Loans - Coverages,SGP-6943,25066,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,Zhang Kaijun,JailuLi,JailuLi,15/Aug/16 2:23 PM,29/Aug/16 10:42 AM,30/Aug/16 2:02 PM,,,0,,,"Calculating types
+* Interest rate
+* Lock-in period
+* Mode of interest
+* Total repayment
+* Total principal
+* Total interest",JailuLi,,,28800,28800,,0%,28800,28800,,,,,,,,,,,,,1|i00b9f:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Coverage & group,SGP-6942,25065,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,Zhang Kaijun,JailuLi,JailuLi,15/Aug/16 2:21 PM,16/Aug/16 11:42 AM,30/Aug/16 2:02 PM,,,0,,,,JailuLi,,,32400,32400,,0%,32400,32400,,,,,,,,,,,,,1|i00b97:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Loan - Interest matrix,SGP-6941,25064,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,15/Aug/16 2:13 PM,18/Aug/16 11:46 AM,30/Aug/16 2:02 PM,,,0,,,"* Add the reference rate type for each interest matrix, like thereafter
+* The reference rate type is not editable while adding/editing the rate",JailuLi,,,46800,46800,,0%,46800,46800,,,,,,,,,,,,,1|i00b8z:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - Loan add/edit page,SGP-6936,25059,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,Zhang Kaijun,JailuLi,JailuLi,15/Aug/16 1:59 PM,29/Aug/16 11:00 AM,30/Aug/16 2:02 PM,,,0,,,Bank activities + Loan activities + Checkout-info activities,JailuLi,,,46800,46800,,0%,46800,46800,,,,,,,,,,,,,1|i00b7v:,Sprint 6.7 - Team 1,,,,,Not started,,
+DMS - General activities,SGP-6935,25058,24906,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,15/Aug/16 1:56 PM,29/Aug/16 11:03 AM,30/Aug/16 2:02 PM,,,0,,,,JailuLi,,,18000,18000,,0%,18000,18000,,,,,,,,,,,,,1|i00b7n:,Sprint 6.7 - Team 1,,,,,Not started,,
+SG H-Loans | Basecase management for Calculator,SGP-6863,24917,24905,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,Wenjie,Janice Lim,Janice Lim,11/Aug/16 2:50 PM,30/Aug/16 10:48 AM,26/Aug/16 9:25 AM,,,0,Roadmap,,"Allow DMS manager to manage the basecase for the following fields of the affordability calculator:
+
+* Monthly household income
+* Other debts
+
+Note: the loan tenure basecase will be the same as the formfill
+
+ !image-2016-08-11-14-47-35-604.png|thumbnail! 
+
+",JailuLi,Janice Lim,Wenjie,14400,14400,,0%,14400,14400,,,,11/Aug/16 2:47 PM;Janice Lim;image-2016-08-11-14-47-35-604.png;https://woodpecker.atlassian.net/secure/attachment/24423/image-2016-08-11-14-47-35-604.png,,,,,,,,,1|hzzhwm:yf6xyrtuxvd9,Sprint 6.7 - Team 1,,,,,Not started,2016-08-30 10:48:40.812,30/Aug/16 10:48 AM;Wenjie;done in branch home_loan
+SG - HL - Phase 2 - DMS,SGP-6852,24906,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,11/Aug/16 11:18 AM,29/Aug/16 4:21 PM,30/Aug/16 2:02 PM,,,0,H-Loans,,,JailuLi,,,309600,309600,,0%,619200,619200,,,,,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyzmb9,Sprint 6.7 - Team 1,86.0,Large,,,Not started,,
+SG - HL - Phase 2 - Front end pages,SGP-6851,24905,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,11/Aug/16 11:17 AM,30/Aug/16 9:40 AM,30/Aug/16 9:40 AM,,,0,H-Loans,,,JailuLi,,,288000,288000,,0%,561600,561600,,,,,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyzmba,Sprint 6.7 - Team 1,80.0,XLarge,,,Not started,,
+SG - HL - Data testing - Insurance API,SGP-6757,24557,24905,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,Yanping,JailuLi,JailuLi,01/Aug/16 5:44 PM,29/Aug/16 3:33 PM,30/Aug/16 2:02 PM,,,0,,,,JailuLi,,,115200,115200,,0%,115200,115200,,,,,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyzm,Sprint 6.7 - Team 1,,,,,Not started,,
+SG - HL - FE - Base case API,SGP-6755,24555,24905,Sub-task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,JailuLi,JailuLi,01/Aug/16 5:42 PM,24/Aug/16 11:03 AM,30/Aug/16 2:02 PM,,,0,,,,JailuLi,,,21600,21600,,0%,21600,21600,,,,,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyzl,Sprint 6.7 - Team 1,,,,,Not started,,
+T1 - Team service - Jailu & Yanping,SGP-6576,24320,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,22/Jul/16 3:27 PM,30/Aug/16 10:21 AM,30/Aug/16 10:21 AM,,,0,,,"8 hours were reserved for Jailu,
+8 hours were reserved for Yanping",suzy,,,57600,57600,,0%,57600,57600,,,,,,,,SGP-1452,,,,,1|hzzhwn:ixy8zhmij6nkjzyzmf,Sprint 6.7 - Team 1,16.0,,,,Not started,,
+T1 - Unforeseen,SGP-6575,24319,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,22/Jul/16 3:25 PM,30/Aug/16 10:21 AM,30/Aug/16 10:21 AM,,,0,,,,suzy,,,28800,28800,,0%,28800,28800,,,,,,,,SGP-1452,,,,,1|hzzhwn:ixy8zhmij6nkjzyzmd,Sprint 6.7 - Team 1,8.0,,,,Not started,,
+T1 - Bugs and Deployment,SGP-6531,24257,,Task,New,SGP,Singapore,software,markvanderploeg,,,Maintenance,,,suzy,suzy,21/Jul/16 2:46 PM,30/Aug/16 10:21 AM,30/Aug/16 10:21 AM,,,0,,,,suzy,,,28800,28800,,0%,28800,28800,,,SGP-6530,,,,,,,,,,1|hzzhwm:yf6xyrtuxv7,Sprint 6.7 - Team 1,8.0,,,,Not started,,
+TH - New solution for ANC prefill,SGP-4747,20007,,Task,New,SGP,Singapore,software,markvanderploeg,,,Minor,,,suzy,suzy,06/May/16 4:19 PM,30/Aug/16 9:42 AM,30/Aug/16 9:42 AM,,,0,Running,,"Find the new solution for ANC prefill to solve the below issue:
+https://woodpecker.atlassian.net/browse/SGP-4708
+
+Enclosed you will find a list of make and model, sorted by its popularity (measured by clickout)
+
+1. The engine capacity is not provided since we don't have the data
+Therefore, for those car models that have more than 1 engine capacity , the sequence of the prefill can be from low to high engine capacity
+
+For example
+
+HONDA CIVIC, we have 5 engine capacity which are 1500, 1700, 1800 and 2000
+
+The sequence of the prefill can be 1500, then 1700, then 1800 and then 2000.
+
+2. Other car make or model that are not included in the attached list, can be considered as a not popular make / model. We dont need to prefill them.
+
+
+
+Scope - This improvement will be applied for whole site. All suppliers.
+Documentation - Detailed technical solution will be documented here: https://woodpecker.atlassian.net/wiki/display/TD/New+solution+to+improve+ANC+prefill
+",suzy,Wongkot,,144000,144000,,0%,144000,144000,,,,18/May/16 9:59 AM;Wongkot;Top Car Make and Car Model (April).xlsx;https://woodpecker.atlassian.net/secure/attachment/20300/Top+Car+Make+and+Car+Model+%28April%29.xlsx,,,,,,,,,1|hzzhwn:ixy8zhmij6nkjzyv,Sprint 6.7 - Team 1,40.0,,,,Not started,,
