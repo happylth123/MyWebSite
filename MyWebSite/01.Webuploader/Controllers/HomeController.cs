@@ -42,7 +42,7 @@ namespace _01.Webuploader.Controllers
 
             string path = string.Format("{0}/{1}", "/localFiles", DateTime.Now.ToString("yyyy-MM-dd"));
             string fileName = string.Format("{0}{1}", Guid.NewGuid().ToString("N"), fileExt);
-            string localPath = string.Format("{0}/{1}", path, fileName);
+            string sqlPath = string.Format("{0}/{1}", path, fileName);
             string dirPath = Request.MapPath(path);
 
             if (!Directory.Exists(dirPath))
@@ -54,13 +54,14 @@ namespace _01.Webuploader.Controllers
                 //todo：缩略图
                 file.SaveAs(Path.Combine(dirPath, fileName));
                 file.InputStream.Dispose();
-                //todo: 未来写存数据库的Code
+                //todo: 未来写存数据库的Code  save sqlPath to sql
+                
             }
             catch
             {
                 return Json(new { status = false, msg = "图片保存失败" });
             }
-            return Json(new { status = true, msg = localPath });
+            return Json(new { status = true, msg = sqlPath });
         }
 
 
