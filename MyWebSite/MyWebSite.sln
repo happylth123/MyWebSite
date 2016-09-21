@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComLibrary", "ComLibrary\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_Csv_Uploader", "Excel_Csv_Uploader\Excel_Csv_Uploader.csproj", "{23027C80-FE12-4B1E-B36B-F0CB950A86A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportExcel", "ExportExcel\ExportExcel.csproj", "{2B3A8567-996C-4327-97C5-84594F946C0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{23027C80-FE12-4B1E-B36B-F0CB950A86A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23027C80-FE12-4B1E-B36B-F0CB950A86A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23027C80-FE12-4B1E-B36B-F0CB950A86A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3A8567-996C-4327-97C5-84594F946C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3A8567-996C-4327-97C5-84594F946C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3A8567-996C-4327-97C5-84594F946C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3A8567-996C-4327-97C5-84594F946C0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,5 +102,6 @@ Global
 		{3EA9822A-0067-42DA-A731-9265566ADE6D} = {43006AE2-7DEA-41F9-B5CF-2F5951212E87}
 		{5BF7E43A-09DE-40B8-AF62-ACEFC79D2D2F} = {8E8D78C9-3187-46A4-83B5-E8DC7D7D7EA7}
 		{23027C80-FE12-4B1E-B36B-F0CB950A86A9} = {43006AE2-7DEA-41F9-B5CF-2F5951212E87}
+		{2B3A8567-996C-4327-97C5-84594F946C0D} = {43006AE2-7DEA-41F9-B5CF-2F5951212E87}
 	EndGlobalSection
 EndGlobal
