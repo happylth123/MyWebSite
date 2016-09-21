@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 
+//Should Manage NuGet Packages with EPPlus
+
 namespace RealNext.Infrastructure.Utilities
 {
     /// <summary>
