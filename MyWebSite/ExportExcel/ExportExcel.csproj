@@ -39,6 +39,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -123,6 +125,10 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ComLibrary\ComLibrary.csproj">
+      <Project>{5bf7e43a-09de-40b8-af62-acefc79d2d2f}</Project>
+      <Name>ComLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyWebSite.Share\MyWebSite.Share.csproj">
       <Project>{ed8fdbc3-f6c8-4e6f-94ae-45c83a6f4ffc}</Project>
       <Name>MyWebSite.Share</Name>

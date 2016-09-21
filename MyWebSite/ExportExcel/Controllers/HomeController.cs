@@ -1,8 +1,12 @@
 ﻿using MyWebSite.Share.Excel;
+using RealNext.Infrastructure.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Mvc;
 
@@ -94,7 +98,39 @@ namespace ExportExcel.Controllers
                             }
                         }
 
+                        #region Export datatable to excel and return the excel file as a byte array
+                        HttpResponseMessage response = new HttpResponseMessage();
+                        byte[] fileBytes = ExcelUtility.GenerateExcel(dataTable, true);
 
+                        if (fileBytes != null)
+                        {
+                            response.Content = new ByteArrayContent(fileBytes);
+                            response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment");
+                            response.Content.Headers.ContentDisposition.FileName = "test" + ".xlsx";
+                            response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+                            response.Content.Headers.ContentLength = fileBytes.Length;
+                            response.StatusCode = HttpStatusCode.OK;
+                        }
+                        else
+                        {
+                            response.StatusCode = HttpStatusCode.NoContent;
+                        }
+                        #endregion
+
+
+                        #region Export datatable to excel,Create excel file on physical disk
+                        string exportPath = string.Format("{0}/{1}", "/ExcelExportFile", DateTime.Now.ToString("yyyy-MM-dd"));
+                        string exportDirPath = Request.MapPath(exportPath);
+                        if (!Directory.Exists(exportDirPath))
+                        {
+                            Directory.CreateDirectory(exportDirPath);
+                        }
+
+                        string exportFileName = Path.Combine(exportDirPath, Guid.NewGuid().ToString("N") + ".xlsx");
+                        //write to dick
+                        ExcelUtility.GenerateExcel(exportFileName, dataTable, true);
+
+                        #endregion
 
 
 
