@@ -64,7 +64,6 @@
     <Compile Include="Excel\CsvTransferData.cs" />
     <Compile Include="Excel\DataFileType.cs" />
     <Compile Include="Excel\ExcelTransferData.cs" />
-    <Compile Include="Excel\HttpContext.cs" />
     <Compile Include="Excel\ITransferData.cs" />
     <Compile Include="Excel\XlsTransferData.cs" />
     <Compile Include="Excel\XlsxTransferData.cs" />
