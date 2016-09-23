@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using MyWebSite.Models.Account;
 using MyWebSite.Models;
 using System.Linq.Expressions;
+using MyWebSite.Models.Logs;
 
 namespace MyWebSite.EF
 {
@@ -36,6 +37,8 @@ namespace MyWebSite.EF
         /// Sprint 
         /// </summary>
         public DbSet<Sprint> Sprints { get; set; }
+
+        public DbSet<LogEntity> LogEntities { get; set; }
 
         /// <summary>
         /// 级联关系

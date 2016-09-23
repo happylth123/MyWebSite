@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Account\AccountService.cs" />
     <Compile Include="Issue\IssueService.cs" />
+    <Compile Include="Logs\LogsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sprint\SprintService.cs" />
   </ItemGroup>

@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Account\AccountRepository.cs" />
     <Compile Include="Issue\IssueRepository.cs" />
+    <Compile Include="Logs\LogsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sprint\SprintRepository.cs" />
   </ItemGroup>

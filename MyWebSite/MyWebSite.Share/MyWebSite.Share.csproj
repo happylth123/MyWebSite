@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Encrypt\MD5Encrypt.cs" />
+    <Compile Include="Enums\DbLogType.cs" />
     <Compile Include="Enums\IssueStatus.cs" />
     <Compile Include="Enums\IssueType.cs" />
     <Compile Include="Enums\SprintStatus.cs" />

@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201608210827499_Addsomeef.Designer.cs">
       <DependentUpon>201608210827499_Addsomeef.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609230330463_addlogs.cs" />
+    <Compile Include="Migrations\201609230330463_addlogs.Designer.cs">
+      <DependentUpon>201609230330463_addlogs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyWebSiteContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608210827499_Addsomeef.resx">
       <DependentUpon>201608210827499_Addsomeef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609230330463_addlogs.resx">
+      <DependentUpon>201609230330463_addlogs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
